@@ -1,0 +1,61 @@
+Name             : V.Pardha Sai
+Description      : The following functions are implemented in the Address Book project to manage contact information efficiently.
+
+create_contact() :->Adds a new contact to the address book by collecting name, mobile number, and email ID from the user.
+                  ->Validates all inputs before storing the contact in memory.
+search_contacts():->Searches for contacts based on name, mobile number, or email ID entered by the user.
+                  ->Displays matching records and allows selection when multiple contacts are found.
+edit_contact()   :->Allows the user to modify existing contact details such as name, mobile number, or email ID.
+                  ->Ensures updated values are validated before saving the changes.
+delete_contact() :->Removes a selected contact from the address book based on user input.
+                  ->Reorganizes remaining records to maintain proper data order.
+list_contacts()  : ->Displays all saved contacts in a formatted tabular view.
+                   ->Helps the user easily review stored contact information.
+save_contacts()  :->Writes all current contact data from memory into a file for permanent storage.
+                  ->Ensures that contacts are preserved for future program executions.
+save and exit    :->Displays all saved contacts in a formatted tabular view.
+                  ->Helps the user easily review stored contact information.
+load_contacts()  :->Loads previously saved contact details from the file into memory when the program starts.
+                  ->Allows the user to continue working with existing contacts without data loss.
+sample input     : Options based on the menu.
+
+sample output    : 
+
+Address book menu
+1.Add Contact
+2.Search Contact
+3.Edit Contact
+4.Delete Contact
+5.Display Contacts
+6.Save Contact
+7.Save and Exit
+
+Enter the option : 1
+Enter Name          : Pardha Sai
+Enter Mobile Number : 9543214321
+Enter Email ID      : pardhasai@gmail.com
+Contact added successfully.
+Enter the option : 1
+Enter Name          : Ravi Kumar
+Enter Mobile Number : 9876543210
+Enter Email ID      : ravikumar@gmail.com
+Contact added successfully.
+
+Enter the option : 5
+
+S.No   Name          Mobile Number    Email ID
+-----------------------------------------------
+1      Pardha Sai     9543214321       pardhasai@gmail.com
+2      Ravi Kumar     9876543210       ravikumar@gmail.com
+
+Enter the option : 2
+Search by:
+1.Name
+2.Mobile number
+3.Mail ID
+4.Exit
+Enter the option : 1
+Enter the name you want to search: Ravi Kumar
+
+Contact(s) Found:
+Ravi Kumar   9876543210   ravikumar@gmail.com
