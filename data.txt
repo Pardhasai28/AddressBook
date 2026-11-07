@@ -8,5 +8,4 @@ divya,9345678901,divya55@gmail.com
 suresh,9765432109,suresh33@gmail.com
 Lavanya,9090909090,lavanya21@gmail.com
 naveen,8888666644,naveen@gmail.com
-priya,9555512345,priya11@gmail
-.com
+priya,9555512345,priya11@gmail.com
